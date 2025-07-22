@@ -1,3 +1,7 @@
+import AddBrowserRouterToMain from "../images/AddBrowserRouterToMain.png";
+import ConfigureRoutes from "../images/ConfigureRoutes.png";
+import RouteParams from "../images/RouteParams.png";
+
 function Routing() {
   return (
     <>
@@ -11,12 +15,19 @@ function Routing() {
       <p>
         Then wrap the main App in <code>BrowserRouter</code>
       </p>
-      <img src="./public/AddBrowserRouterToMain.png" className="img-fluid"></img>
-      <p>In <code>App.tsx</code> define the routes with the <code>Routes</code> and <code>Route</code> components.</p>
-      <img src="./public/ConfigureRoutes.png" className="img-fluid"></img>
+      <img src={AddBrowserRouterToMain} className="img-fluid"></img>
+      <p>
+        In <code>App.tsx</code> define the routes with the <code>Routes</code>{" "}
+        and <code>Route</code> components.
+      </p>
+      <img src={ConfigureRoutes} className="img-fluid"></img>
       <h2>Route params</h2>
-      <p>Route params (for example the <code>:id</code> in the image above) can be accessed within the component using the <code>useParams()</code> hook.</p>
-      <img src="./public/RouteParams.png" className="img-fluid"></img>
+      <p>
+        Route params (for example the <code>:id</code> in the image above) can
+        be accessed within the component using the <code>useParams()</code>{" "}
+        hook.
+      </p>
+      <img src={RouteParams} className="img-fluid"></img>
     </>
   );
 }
