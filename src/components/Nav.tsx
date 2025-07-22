@@ -20,7 +20,7 @@ function Nav() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/" className="nav-link">Homer</Link>
             <Link to="/routing" className="nav-link">Routing</Link>
           </ul>
         </div>
