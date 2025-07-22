@@ -2,6 +2,8 @@
 
 This repository is for me to learn React.
 
+A GitHub Action is used to automatically build and deploy the solution to GitHub Pages.  The site is here: [davidgouge.github.io/react-learning](https://davidgouge.github.io/react-learning/)
+
 I'm going to add pages that demonstrate the following:
 
 - [ ] Routing
