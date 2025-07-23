@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AddBrowserRouterToMain from "../images/AddBrowserRouterToMain.png";
 import ConfigureRoutes from "../images/ConfigureRoutes.png";
 import RouteParams from "../images/RouteParams.png";
@@ -28,6 +29,9 @@ function Routing() {
         hook.
       </p>
       <img src={RouteParams} className="img-fluid"></img>
+      <p>
+        <Link to="/routing/42">Click here to go to the route `/routing/42`</Link>
+      </p>
     </>
   );
 }

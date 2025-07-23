@@ -2,7 +2,7 @@
 
 This repository is for me to learn React.
 
-A GitHub Action is used to automatically build and deploy the solution to GitHub Pages.  The site is here: [davidgouge.github.io/react-learning](https://davidgouge.github.io/react-learning/)
+A GitHub Action is used to automatically build and deploy the solution to Azure Static Pages.  The site is here: [https://mango-pond-0139fe603.1.azurestaticapps.net/](https://mango-pond-0139fe603.1.azurestaticapps.net/)
 
 I'm going to add pages that demonstrate the following:
 
