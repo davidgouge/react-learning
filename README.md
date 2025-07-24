@@ -6,7 +6,7 @@ A GitHub Action is used to automatically build and deploy the solution to Azure 
 
 I'm going to add pages that demonstrate the following:
 
-- [ ] Routing
+- [x] Routing
 - [ ] Components
 - [ ] Props
 - [ ] Handling Events
