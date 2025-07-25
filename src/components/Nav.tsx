@@ -22,6 +22,7 @@ function Nav() {
           <ul className="navbar-nav">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/routing" className="nav-link">Routing</Link>
+            <Link to="/components" className="nav-link">Components</Link>
           </ul>
         </div>
       </div>
