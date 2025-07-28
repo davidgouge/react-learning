@@ -1,17 +1,6 @@
 import { useEffect, useState } from "react";
-
-type Player = {
-  id: number;
-  name: string;
-  firstname: string;
-  lastname: string;
-  age: number;
-  nationality: string;
-  height: string;
-  weight: string;
-  injured: boolean;
-  photo: string; // URL to the player's photo
-};
+import type { Player } from "../types/Player";
+import Players from "../components/Players";
 
 type PlayerResponse = {
   paging: Paging;
@@ -74,14 +63,7 @@ function ExternalApi() {
             Page {paging?.current} of {paging?.total} <a href='#' onClick={nextPage}>&gt;</a>
           </h2>
           <div>
-            {players?.map((player) => (
-              <>
-                <p>
-                  {player.firstname} {player.lastname}
-                </p>
-                <img src={player.photo} />
-              </>
-            ))}
+            {players !== null && <Players players={players}/>}
           </div>
         </>
       )}
