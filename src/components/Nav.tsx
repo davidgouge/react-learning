@@ -23,6 +23,7 @@ function Nav() {
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/routing" className="nav-link">Routing</Link>
             <Link to="/components" className="nav-link">Components</Link>
+            <Link to="/external-api" className="nav-link">External API</Link>
           </ul>
         </div>
       </div>

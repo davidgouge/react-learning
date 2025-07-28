@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Routing from "./pages/Routing";
 import RoutingWithUrlParam from "./pages/RoutingWithUrlParam";
 import { Components } from "./pages/Components";
+import ExternalApi from "./pages/ExternalApi";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/routing" element={<Routing />} />
           <Route path="/routing/:id" element={<RoutingWithUrlParam />} />
           <Route path="/components" element={<Components />} />
+          <Route path="/external-api" element={<ExternalApi />} />
         </Routes>
       </main>
     </>
